@@ -1,0 +1,35 @@
+{
+  "name": "@sevenoutman/use-auto-increment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "state",
+    "auto increment"
+  ],
+  "author": "Doma<leishenghao@126.com>",
+  "repository": "git@github.com:SevenOutman/use-auto-increment.git",
+  "homepage": "https://github.com/SevenOutman/use-auto-increment",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "typescript": "^3.6.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
