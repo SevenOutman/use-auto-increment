@@ -1,5 +1,5 @@
 {
-  "name": "@sevenoutman/use-auto-increment",
+  "name": "@sevenoutman/use-increment",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -19,8 +19,8 @@
     "auto increment"
   ],
   "author": "Doma<leishenghao@126.com>",
-  "repository": "git@github.com:SevenOutman/use-auto-increment.git",
-  "homepage": "https://github.com/SevenOutman/use-auto-increment",
+  "repository": "git@github.com:SevenOutman/use-increment.git",
+  "homepage": "https://github.com/SevenOutman/use-increment",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0"

@@ -13,7 +13,7 @@ interface IncrementFunc extends IncrementByFunc{
 /**
  * Auto-incrementing state
  */
-export default function useAutoIncrement(initialValue: number = 1, step: number = 1): [number, IncrementFunc] {
+export default function useIncrement(initialValue: number = 1, step: number = 1): [number, IncrementFunc] {
   const [value, setValue] = useState(initialValue);
 
   const increment = useMemo(() => {

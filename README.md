@@ -1,17 +1,17 @@
-# use-auto-increment
+# use-increment
 
-> React Hook for auto incrementing value
+> React Hook for incrementing value
 
-    yarn add @sevenoutman/use-auto-increment
+    yarn add @sevenoutman/use-increment
 
 ## Usage
 
 ```javascript
-import useAutoIncrement from '@sevenoutman/use-auto-increment';
+import useIncrement from '@sevenoutman/use-increment';
 
 function App() {
     
-    const [clickCount, increment] = useAutoIncrement(0);
+    const [clickCount, increment] = useIncrement(0);
     
     return (
         <Button onClick={increment}>
@@ -23,7 +23,7 @@ function App() {
 
 ## API
 
-### `useAutoIncrement(initialValue?: number, step?: number): [value, increment]`
+### `useIncrement(initialValue?: number, step?: number): [value, increment]`
 
 Default hook signature, returns a array representing `[value, increment]`.
 

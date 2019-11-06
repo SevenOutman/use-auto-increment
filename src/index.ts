@@ -1,3 +1,3 @@
-import useAudoIncrement from './useAutoIncrement';
+import useIncrement from './useIncrement';
 
-export default useAudoIncrement;
+export default useIncrement;
